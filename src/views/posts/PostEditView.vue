@@ -12,8 +12,10 @@
         <textarea class="form-control" id="content" rows="3"></textarea>
       </div>
       <div class="pt-4">
-        <button class="btn btn-outline-danger me-2" @click="goDetailPage">취소</button>
-        <button class="btn btn-primary">수정</button>
+        <button class="btn btn-outline-danger me-2" @click="goDetailPage" type="button">
+          취소
+        </button>
+        <button class="btn btn-primary" type="submit">수정</button>
       </div>
     </form>
   </div>
